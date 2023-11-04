@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Beállítások</title>
+</head>
+
+<body>
+
+    <!--Felső menü sáv-->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Útnyilvántartó</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Főoldal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Beállítás</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="#" aria-expanded="false">
+                            Segítség
+                        </a>
+                    </li>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <b class="szoveg1">Ezeket az adatokat meg kell adni a helyes működéshez</b>
+            </div>
+            <div class="col-6">
+                <b class="szoveg2">Itt adhatsz meg vagy törölhetsz saját uticélokat</b>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row">
+            <div class="col-6">
+                <label for="nev">Név</label>
+                <input type="nev" class="form-control" id="nev" style="max-width: 600px;" />
+            </div>
+            <div class="col-6">
+                <label for="nev">Uticél(azonosító)</label>
+                <input type="nev" class="form-control" id="nev" style="max-width: 600px;" />
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-6">
+                <label for="inputState">Telephely</label>
+                <select id="inputState" class="form-control" style="max-width: 600px;">
+                    <option selected>Válaszd ki a telephelyet</option>
+                    <option>...</option>
+                </select>
+            </div>
+            <div class="col-6">
+                <label for="nev">Ügyfél neve</label>
+                <input type="nev" class="form-control" id="nev" style="max-width: 600px;" />
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-6">
+                <label for="inputAddress">Város</label>
+                <input type="text" class="form-control" id="varos" id="nev" style="max-width: 600px;">
+            </div>
+            <div class="col-6">
+                <label for="nev">Egyéb adat</label>
+                <input type="nev" class="form-control" id="nev" id="nev" style="max-width: 600px;" />
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-6">
+                <label for="inputAddress">Utca házszám</label>
+                <input type="text" class="form-control" id="varos" id="nev" style="max-width: 600px;">
+            </div>
+            <div class="col-6">
+                <label for="nev">Irányítószám</label>
+                <input type="nev" class="form-control" id="nev" id="nev" style="max-width: 600px;" />
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-6">
+                <label for="inputAddress">Autó típusa</label>
+                <input type="text" class="form-control" id="varos" id="nev" style="max-width: 600px;">
+            </div>
+            <div class="col-6">
+                <label for="nev">Város</label>
+                <input type="nev" class="form-control" id="nev" id="nev" style="max-width: 600px;" />
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-6">
+                <label for="inputState">Rendszám</label>
+                <select id="inputState" class="form-control" id="nev" style="max-width: 600px;">
+                    <option selected id="nev">Válaszd ki a rendszámot</option>
+                    <option>...</option>
+                </select>
+            </div>
+            <div class="col-6">
+                <label for="nev">Cím</label>
+                <input type="nev" class="form-control" id="nev" id="nev" style="max-width: 600px;">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-6">
+                <div class="col-6">
+                    <label for="nev">Lökttérfogat</label>
+                    <input type="nev" class="form-control" id="nev" style="max-width: 600px;" />
+                </div>
+            </div>
+            <div class="col-6">
+                <div style="text-align: center">
+                    <button type="submit" class="btn btn-primary" id="bevitelgomb">Bevitel</button>
+                    <button type="submit" class="btn btn-primary" id="bevitelgomb">Törlés</button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-6">
+                <div class="col-6">
+                    <label for="nev">Fogyasztás</label>
+                    <input type="nev" class="form-control" id="nev" id="nev">
+                </div>
+            </div>
+            <div style="text-align: center" class="col-6">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="lenyilogomb" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Saját cím törlése
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#"></a>
+                    <a class="dropdown-item" href="#"></a>
+                    <a class="dropdown-item" href="#"></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-6">
+                    <div class="col-6">
+                        <label for="nev">Előző záró Km</label>
+                        <input type="nev" class="form-control" id="nev" style="max-width: 600px;">
+                    </div>
+                </div>
+                <div class="col-6">
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-6">
+                    <div class="col-6">
+                        <label for="nev">Jelenlegi záró Km</label>
+                        <input type="nev" class="form-control" id="nev" />
+                    </div>
+                </div>
+                <div class="col-6">
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div style="text-align: center" class="col-6">
+                    <div class="col-6">
+                        <button type="submit" class="btn btn-primary" id="gomb">Beállítás</button>
+                        <button type="submit" class="btn btn-primary" id="gomb">Mentés</button>
+                    </div>
+                </div>
+
+                <div class="col-6">
+                    <div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="jumbotron jumbotron-fluid beolvasas">
+        <div class="container">
+            <h1 class="display-4">
+                Itt olvashatod be az adatbázisba az új fájlt ami az ügyfél adatokat tartalmazza.
+            </h1>
+            <p class="lead beolvasas">
+                A fájl betöltése az xls - ből 3-4 percig tart kb: 2350 sor. Betöltés közben nem
+                használható a program. Kérlek ne zárd be a megjelenő ablakot.
+            </p>
+            <button type="submit" class="btn btn-primary" id="beolvasogomb">
+                Excel beolvasás
+            </button>
+        </div>
+    </div>
+</body>
+
+</html>

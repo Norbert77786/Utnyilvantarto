@@ -1,0 +1,48 @@
+
+
+.beallitas{
+    margin-top: 20px;
+    margin-left: 100px;
+
+    
+    
+}
+#gomb{
+   
+   margin-top: 10px;
+   display: inline-block;
+
+}
+.beolvasas{
+    text-align: center;
+    text-shadow: 20px 20px 20px gray;
+    margin-bottom: 20px;
+}
+#beolvasogomb{
+    box-shadow: 20px 20px 20px  gray;
+    
+}
+.szoveg1{
+    font-size: 20px;
+    
+
+}
+
+.szoveg2{
+    font-size: 20px;
+    
+}
+#lenyilogomb{
+    
+    margin-top: 10px;
+    
+    
+}
+#bevitelgomb{
+    
+   margin-top: 10px;
+   display: inline-block;
+}
+input{
+    max-width: 10000px;
+}
